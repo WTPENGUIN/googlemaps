@@ -3,6 +3,7 @@
 
 #include <QtCore/QObject>
 #include <QtLocation/QGeoServiceProviderFactory>
+#include <QtPlugin>
 
 class QGeoServiceProviderFactoryGooglemaps: public QObject, public QGeoServiceProviderFactory
 {
